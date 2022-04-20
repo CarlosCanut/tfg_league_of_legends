@@ -6,7 +6,6 @@ import riot_helpers
 
 
 
-
 ##################################################################
 ### unique from list
 def get_unique(list):
@@ -92,7 +91,7 @@ def extract_and_store_games_stats(watcher, game_ids, path="../../data/soloq/"):
                 # time.sleep(1)
                 continue
             
-            game_stats = riot_helpers.get_postgame_data(game_id, game_data, timeline_data)
+            game_stats = riot_helpers.soloq.get_postgame_data(game_id, game_data, timeline_data)
             
             game_region_stats = game_region_stats + game_stats
         

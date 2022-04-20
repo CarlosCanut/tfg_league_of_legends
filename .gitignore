@@ -1,3 +1,6 @@
+# data
+projects/champion_clustering/data/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
