@@ -1,0 +1,3 @@
+#!c:\users\canut\desktop\tfg_league_of_legends\scripts\python.exe
+from numba.pycc import main
+main()
